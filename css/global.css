@@ -1,0 +1,245 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.2);
+  position: fixed;
+  width: 100%;
+  padding: 12px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+header .img2 {
+  width: 20px;
+  height: 20px;
+}
+header ul {
+  display: flex;
+  gap: 20px;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 70px;
+}
+header ul li {
+  color: #E5E5E5;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+header ul .i8 {
+  background: #E5E5E5;
+}
+header ul .img1 {
+  width: 20px;
+  height: 20px;
+  color: black;
+}
+
+.s-1 {
+  width: 100%;
+  height: 500px;
+  background-image: url(https://scontent.ftbs5-3.fna.fbcdn.net/v/t39.30808-6/325595127_2936648833307810_7673240551146401169_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=npgI4HF9eWIQ7kNvgHfegP7&_nc_ht=scontent.ftbs5-3.fna&oh=00_AYDrgGq-dZl9fJhFew2dao24Atp8ERU2SY9ad4iH3LhRzQ&oe=6684BA84);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+footer {
+  display: flex;
+  background: #212529;
+  padding: 5%;
+  width: 100%;
+  margin: 0 auto;
+}
+footer .div1 {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+}
+footer .div1 p {
+  color: #FFF;
+  font-family: Lora;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+}
+footer .div1 h5 {
+  color: #E5E5E5;
+  font-family: Lora;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+footer .div44 {
+  display: flex;
+  gap: 17px;
+  flex-direction: row;
+}
+footer .distance {
+  margin-left: 142px;
+  margin-right: 247px;
+}
+
+.s-s .pfontllora {
+  font-family: lora;
+  font-size: 36px;
+  font-weight: 700;
+  margin: 50px 0 20px 70px;
+}
+.s-s h2 {
+  margin-left: 70px;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 5px;
+  transition: 5s;
+}
+.s-s h2:hover {
+  font-size: 35px;
+  padding: 0;
+}
+.s-s .pforfood {
+  color: #FFF;
+  font-family: Lora;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  margin: 80px;
+  line-height: 25px;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.pforfood {
+  color: #FFF;
+  font-family: Lora;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  margin: 80px;
+  line-height: 25px;
+}
+
+.divforfood {
+  display: flex;
+  gap: 50px;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  margin: 80px;
+}
+.divforfood img {
+  width: 200px;
+  height: 200px;
+}
+.divforfood .img1 {
+  left: 10%;
+  top: 30%;
+}
+.divforfood .aiconweight {
+  size: 200%;
+}
+
+.s-0 {
+  margin-bottom: 150px;
+  margin-top: 80px;
+}
+.s-0 .pp {
+  color: #495057;
+  font-family: Lora;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0 0 20px 80px;
+}
+.s-0 .divbox {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 50px;
+}
+.s-0 .divbox img {
+  width: 200px;
+  height: 200px;
+}
+.s-0 .divboxcenter {
+  margin-left: 80px;
+  gap: 80px 50px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.s-0 .divboxcenter .divgun {
+  display: flex;
+  align-items: center;
+}
+.s-0 .divboxcenter img {
+  width: 200px;
+  height: 200px;
+}/*# sourceMappingURL=global.css.map */

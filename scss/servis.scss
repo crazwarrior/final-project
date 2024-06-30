@@ -1,0 +1,104 @@
+@import "reset";
+header{
+    background-color: rgba(0, 0, 0, 0.20);
+    position: fixed;
+    width: 100%;
+    padding: 12px 20px;
+    display: flex;
+    justify-content: space-between;
+    .img2{
+        width: 20px;
+        height: 20px;
+    }
+    ul{
+        display: flex;
+        gap: 20px;
+        justify-content: flex-end;
+        align-items: center;
+        margin-right: 70px;
+        li{
+            color: #E5E5E5;
+            font-family: Roboto;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+        .i8{
+            background: #E5E5E5;
+        }
+        .img1{
+            width: 20px;
+            height: 20px;
+            color: black;
+        }
+    }
+}
+.s-1{
+width: 100%;
+height: 500px;
+    background-image: url(https://scontent.ftbs5-3.fna.fbcdn.net/v/t39.30808-6/325595127_2936648833307810_7673240551146401169_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=npgI4HF9eWIQ7kNvgHfegP7&_nc_ht=scontent.ftbs5-3.fna&oh=00_AYDrgGq-dZl9fJhFew2dao24Atp8ERU2SY9ad4iH3LhRzQ&oe=6684BA84);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+footer{
+    display: flex;
+  
+    background: #212529;padding: 5%;
+    width: 100%;
+    margin: 0 auto;
+    .div1{
+        display: flex;
+        flex-direction: column;
+        gap: 17px;
+        p{
+            color: #FFF;
+            font-family: Lora;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 25px; 
+        }
+        h5{
+            color: #E5E5E5;
+            font-family: Lora;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+    }
+    .div44{
+        display: flex;
+        gap: 17px;
+    }
+    .distance{
+        margin-left: 142px;
+        margin-right: 247px;
+    }
+}
+.v{
+
+}
+ul{
+    @media(max-width:1200px){
+        display: none;
+    }
+}
+.v{
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    height: 300px;
+    img{
+        width: 40px;
+        height: 40px;
+    }
+    .imghighe{
+        width: 40px;
+        height: 40px;
+    }
+    .fle{
+        display: flex;
+    }
+}
